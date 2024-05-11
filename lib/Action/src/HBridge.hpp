@@ -16,21 +16,21 @@ typedef struct {
 } motor;
 
 class HBridge {
-    private:
+    protected:
 
-        motor motorA;
-        motor motorB;
+        motor _motorA;
+        motor _motorB;
 
 
     public:
         // the setup method MUST set up motorA, and motorB,  it will be the first method called.
-        virtual void setup();  
+        virtual void setup() {}
 
         // deconstruts the HBridge.
-        void teardown();
+        virtual void teardown() {}
 
         // drives the wheels.
-        void driveWheels(uint32_t in1, uint32_t in2, uint32_t in3,  uint32_t in4, uint32_t ena, uint32_t enb);
+        virtual void driveWheels(uint32_t in1, uint32_t in2, uint32_t in3,  uint32_t in4, uint32_t ena, uint32_t enb) {}
 };
 
 #endif
