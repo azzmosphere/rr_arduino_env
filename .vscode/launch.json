@@ -12,10 +12,11 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "/Users/newuser/projects/rr_arduino_env/.pio/build/megaatmega2560/firmware.elf",
-            "projectEnvName": "megaatmega2560",
-            "toolchainBinDir": "/Users/newuser/.platformio/packages/toolchain-atmelavr/bin",
+            "executable": "/Users/newuser/projects/rr_arduino_env/.pio/build/uno_r4_minima/firmware.elf",
+            "projectEnvName": "uno_r4_minima",
+            "toolchainBinDir": "/Users/newuser/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
             "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/newuser/.platformio/platforms/renesas-ra/misc/svd/R7FA4M1AB.svd",
             "preLaunchTask": {
                 "type": "PlatformIO",
                 "task": "Pre-Debug"
@@ -25,19 +26,21 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "/Users/newuser/projects/rr_arduino_env/.pio/build/megaatmega2560/firmware.elf",
-            "projectEnvName": "megaatmega2560",
-            "toolchainBinDir": "/Users/newuser/.platformio/packages/toolchain-atmelavr/bin",
-            "internalConsoleOptions": "openOnSessionStart"
+            "executable": "/Users/newuser/projects/rr_arduino_env/.pio/build/uno_r4_minima/firmware.elf",
+            "projectEnvName": "uno_r4_minima",
+            "toolchainBinDir": "/Users/newuser/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/newuser/.platformio/platforms/renesas-ra/misc/svd/R7FA4M1AB.svd"
         },
         {
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (without uploading)",
-            "executable": "/Users/newuser/projects/rr_arduino_env/.pio/build/megaatmega2560/firmware.elf",
-            "projectEnvName": "megaatmega2560",
-            "toolchainBinDir": "/Users/newuser/.platformio/packages/toolchain-atmelavr/bin",
+            "executable": "/Users/newuser/projects/rr_arduino_env/.pio/build/uno_r4_minima/firmware.elf",
+            "projectEnvName": "uno_r4_minima",
+            "toolchainBinDir": "/Users/newuser/.platformio/packages/toolchain-gccarmnoneeabi@1.70201.0/bin",
             "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/Users/newuser/.platformio/platforms/renesas-ra/misc/svd/R7FA4M1AB.svd",
             "loadMode": "manual"
         }
     ]
