@@ -10,7 +10,6 @@
             "includePath": [
                 "/Users/newuser/projects/rr_arduino_env/include",
                 "/Users/newuser/projects/rr_arduino_env/src",
-                "/Users/newuser/projects/rr_arduino_env/lib/L298N/src",
                 "/Users/newuser/projects/rr_arduino_env/lib/Action/src",
                 "/Users/newuser/projects/rr_arduino_env/lib/Logger/src",
                 "/Users/newuser/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/tinyusb",
@@ -48,7 +47,6 @@
                 "path": [
                     "/Users/newuser/projects/rr_arduino_env/include",
                     "/Users/newuser/projects/rr_arduino_env/src",
-                    "/Users/newuser/projects/rr_arduino_env/lib/L298N/src",
                     "/Users/newuser/projects/rr_arduino_env/lib/Action/src",
                     "/Users/newuser/projects/rr_arduino_env/lib/Logger/src",
                     "/Users/newuser/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/tinyusb",

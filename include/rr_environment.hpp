@@ -3,7 +3,8 @@
 
 #include <Arduino.h>
 
-#include "L298N.hpp"
+#include "HBridge.hpp"
 #include "MoveForward.hpp"
+#include "MoveStop.hpp"
 
 #endif
